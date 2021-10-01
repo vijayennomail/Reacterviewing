@@ -7,9 +7,11 @@ Your mission, should you choose to accept it, is to show an album title and imag
 
  baseURL = "https://jsonplaceholder.typicode.com/"
  
- photosEndpoint = "/photos" //returns photos and their album ID
+ albumsEndpoint = "/albums"  --> returns an album, but without photos
  
- albumsEndpoint = "/albums" //returns an album, but without photos
+ photosEndpoint = "/photos" -->returns photos and their album ID
+ 
+
 
 BUSINESS REQUIREMENTS:
 - Remove all occurances of the letter "e" (case-insensitive) from album titles
