@@ -6,7 +6,9 @@ If you're applying for an React Native development position at Ennovations Techs
 Your mission, should you choose to accept it, is to show an album title and image in a listing view. The album title and image should be retrieved from [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/). 
 
  baseURL = "https://jsonplaceholder.typicode.com/"
+ 
  photosEndpoint = "/photos" //returns photos and their album ID
+ 
  albumsEndpoint = "/albums" //returns an album, but without photos
 
 BUSINESS REQUIREMENTS:
